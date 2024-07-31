@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useRef, useEffect } from 'react';
 import "./MovieModal.css";
+import useOnClickOutside from '../../hooks/useOnClickOutside';
 
 const MovieModal = ({
   backdrop_path,
@@ -11,10 +12,20 @@ const MovieModal = ({
   vote_average,
   setModalOpen,
 }) => {
+  const ref = useRef();
+
+  useOnClickOutside(ref, () => {
+    setModalOpen(false);
+   });
+
+  useEffect(() => {
+    console.log('ref', ref.current);
+  }, []);
+
   return (
-    <div className='presentaion' role="presentation">
+    <div className='presentation' role="presentation">
       <div className='wrapper-modal'>
-        <div className = 'modal'>
+        <div className='modal' ref={ref}>
           <span
             onClick={() => setModalOpen(false)}
             className="modal-close"
@@ -33,7 +44,7 @@ const MovieModal = ({
               {release_date ? release_date : first_air_date}
             </p>
 
-            <h2 className='modal__title'> {title ? title : name } </h2>
+            <h2 className='modal__title'>{title ? title : name}</h2>
             <p className='modal__overview'>평점 : {vote_average}</p>
             <p className='modal__overview'>{overview}</p>
           </div>
@@ -43,4 +54,4 @@ const MovieModal = ({
   )
 }
 
-export default MovieModal
+export default MovieModal;
