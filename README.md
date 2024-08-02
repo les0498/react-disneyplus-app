@@ -1,3 +1,11 @@
 **http://172.30.1.36:3000**
 
-![Untitled (1)](https://github.com/les0498/react-disneyplus-app/assets/92281453/2117660c-5a5c-4403-b4bb-42e641bda818)
+![image](https://github.com/user-attachments/assets/39c7adce-b188-41ca-bf9a-b8498cd3a6ce)
+
+
+**http://172.30.1.36:3000/main**
+
+![image](https://github.com/user-attachments/assets/7c03dfd6-e03b-41aa-85dc-323895679ff6)
+
+
+
