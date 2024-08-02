@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/%7Breact-disneyplus-app%7D/static/css/main.6bf06c69.css",
-    "main.js": "/%7Breact-disneyplus-app%7D/static/js/main.3177c28e.js",
-    "static/js/453.73d9384b.chunk.js": "/%7Breact-disneyplus-app%7D/static/js/453.73d9384b.chunk.js",
-    "index.html": "/%7Breact-disneyplus-app%7D/index.html",
-    "main.6bf06c69.css.map": "/%7Breact-disneyplus-app%7D/static/css/main.6bf06c69.css.map",
-    "main.3177c28e.js.map": "/%7Breact-disneyplus-app%7D/static/js/main.3177c28e.js.map",
-    "453.73d9384b.chunk.js.map": "/%7Breact-disneyplus-app%7D/static/js/453.73d9384b.chunk.js.map"
+    "main.css": "/react-disneyplus-app/static/css/main.6bf06c69.css",
+    "main.js": "/react-disneyplus-app/static/js/main.93bc7536.js",
+    "static/js/453.73d9384b.chunk.js": "/react-disneyplus-app/static/js/453.73d9384b.chunk.js",
+    "index.html": "/react-disneyplus-app/index.html",
+    "main.6bf06c69.css.map": "/react-disneyplus-app/static/css/main.6bf06c69.css.map",
+    "main.93bc7536.js.map": "/react-disneyplus-app/static/js/main.93bc7536.js.map",
+    "453.73d9384b.chunk.js.map": "/react-disneyplus-app/static/js/453.73d9384b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6bf06c69.css",
-    "static/js/main.3177c28e.js"
+    "static/js/main.93bc7536.js"
   ]
 }
