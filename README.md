@@ -1,8 +1,8 @@
 # 프로젝트 설명
 <br>
-![MagicCinderellaGIF](https://github.com/user-attachments/assets/f1274391-3956-4cab-85a4-c36009d55940)
 
-** Disneyplus **
+
+**DisneyPlus**
 
 이 프로젝트는 웹 애플리케이션의 가입 페이지와 메인 페이지로 구성되어있다. 
 각 페이지의 구성과 기능은 아래 링크에서 확인 가능하다. 
