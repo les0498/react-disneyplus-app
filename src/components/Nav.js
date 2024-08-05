@@ -33,12 +33,12 @@ const Nav = () => {
       <Logo>
         <img
           alt="Disney Plus Logo"
-          src="/images/logo.svg"
+          src={`${process.env.PUBLIC_URL}/images/logo.svg`}
           onClick={() => (window.location.href ="/")}
         />
       </Logo>
       {pathname === "/" ? 
-        (<login>Login</login>) : 
+        (<Login>Login</Login>) : 
         <Input 
           value={searchValue}
           onChange={handleChange}
