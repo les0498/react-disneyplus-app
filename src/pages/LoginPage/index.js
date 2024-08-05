@@ -1,13 +1,20 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate from react-router-dom
 import styled from 'styled-components';
 
 const LoginPage = () => {
+  const navigate = useNavigate(); // Initialize navigate function
+
+  const handleSignUpClick = () => {
+    navigate('/main'); // Navigate to /main on click
+  };
+
   return (
     <Container>
       <Content>
         <Center>
           <LogoOne src={`${process.env.PUBLIC_URL}/images/cta-logo-one.svg`} alt="logo-one" />
-          <SignUpLink>지금 가입</SignUpLink>
+          <SignUpLink onClick={handleSignUpClick}>지금 가입</SignUpLink>
           <Description>
             영화에 대한 프리미어 액세스를 얻으십시오.
             디즈니 플러스 가격은 다음 주부터 1000원 인상됩니다.
@@ -72,7 +79,7 @@ const LogoOne = styled.img`
   width: 100%;
 `;
 
-const SignUpLink = styled.a`
+const SignUpLink = styled.button` // Change from 'a' to 'button' to use onClick event
   font-weight: bold;
   color: #f9f9f9;
   background-color: #0063e5;
@@ -83,6 +90,9 @@ const SignUpLink = styled.a`
   padding: 16.5px 0;
   border: 1px solid transparent;
   border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  border: none;
 
   &:hover {
     background-color: #0483ee;
