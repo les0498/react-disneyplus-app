@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-disneyplus-app/static/css/main.6bf06c69.css",
-    "main.js": "/react-disneyplus-app/static/js/main.93bc7536.js",
+    "main.js": "/react-disneyplus-app/static/js/main.594e2f2f.js",
     "static/js/453.73d9384b.chunk.js": "/react-disneyplus-app/static/js/453.73d9384b.chunk.js",
     "index.html": "/react-disneyplus-app/index.html",
     "main.6bf06c69.css.map": "/react-disneyplus-app/static/css/main.6bf06c69.css.map",
-    "main.93bc7536.js.map": "/react-disneyplus-app/static/js/main.93bc7536.js.map",
+    "main.594e2f2f.js.map": "/react-disneyplus-app/static/js/main.594e2f2f.js.map",
     "453.73d9384b.chunk.js.map": "/react-disneyplus-app/static/js/453.73d9384b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6bf06c69.css",
-    "static/js/main.93bc7536.js"
+    "static/js/main.594e2f2f.js"
   ]
 }
