@@ -9,8 +9,8 @@
   ],
   "rewrites": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "source":  "/react-disneyplus-app/:path*",
+      "destination": "/:path*"
     }
   ]
 }{
